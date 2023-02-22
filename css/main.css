@@ -331,7 +331,7 @@ header.abajo {
 
 footer {
   height: 260px;
-  background-color: white; }
+  background-color: transparent; }
 
 .footer1 {
   height: 220px;
@@ -339,7 +339,8 @@ footer {
   float: left;
   background-color: white;
   margin-left: 20px;
-  margin-top: 20px; }
+  margin-top: 20px; 
+}
 
 #logofooter {
   width: 100%;

@@ -425,6 +425,11 @@ footer {
 	margin-top: 20px;
 }
 
+.footer1 ul li a {
+	text-decoration: none;
+	color: black;
+}
+
 #logofooter {
 	width: 100%;
 	display: block;

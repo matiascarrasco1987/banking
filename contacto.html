@@ -25,7 +25,36 @@
 			</ul>
 		</nav>
 	</header>
-
+<section id="contacto"  class="container-fluid">
+		<div id="formulario">
+			<h2>Hablá con nosotros</h2>
+				<form class="row">
+					<div class="col-md-6">
+							<div class="mb-2">
+								<input type="text" placeholder="Nombre" required class="form-control">
+								<input type="text" placeholder="Apellido" required class="form-control">
+								<input type="email" placeholder="Correo electrónico" class="form-control">
+							</div>
+							<div class="mb-2">
+								<select id="seleccion" class="form-control">
+									<option value="Productos">Alta de productos</option>
+									<option value="Consulta">Consulta</option>
+									<option value="Cursos">Cursos</option>
+									<option value="Aumento de límite">Aumento de límite</option>
+								</select>
+							</div>
+					</div>
+					<div class="col-md-6">
+								<div id="textarea">
+								<textarea rows="6" placeholder="Consulta" class="form-control" required></textarea class="form-control">
+								</div>
+					</div>
+					<div class="col-md-12" class="col-lg-3">
+						<input type="submit" name="Enviar" class="form-control" id="btnenviar">
+					</div>
+				</form>
+		</div>
+	</section>
 	<footer>
 		<div class="footer1">
 			<h1><a id="logofooter" href="./index.html">BANKING+</a></h1>
