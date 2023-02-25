@@ -1,7 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif; }
 
-header, section, footer {
+section {
   width: 960px;
   margin-left: auto;
   margin-right: auto; }
@@ -11,92 +11,68 @@ header {
   position: sticky;
   top: 0;
   left: 0;
-  width: 960px;
   display: flex;
   justify-content: space-arround;
   transition: 0.7s;
   padding: 15px;
-  background-image: url("assets/img/header.jpg");
-  background-repeat: no-repeat;
-  border-radius: 10px; }
+  background-color: #69699b;
+  z-index: 1000; }
 
 header.abajo {
   background: transparent;
-  padding: 5px; }
+  padding: 5px;
+  box-shadow: none; }
 
 #logoinicio {
   width: 550px;
   float: left; }
   #logoinicio h1 {
-    margin-left: 35px;
+    margin-left: 20px;
     position: relative; }
 
 #logo {
   color: black;
   font-weight: bold;
   text-decoration: none;
-  text-shadow: 0 0 4px blue;
+  text-shadow: 0 0 4px white;
   transition: 0.7s; }
   #logo:hover {
     color: white;
     text-shadow: 0 0 4px black; }
 
 #botonera {
-  width: 400px;
   height: 35px;
-  display: flex;
-  align-items: center;
-  float: right;
+  width: 2500px;
+  margin: auto;
   margin-top: 10px; }
   #botonera ul {
-    position: relative;
+    float: right;
     display: flex;
-    align-items: right;
     list-style-type: none; }
     #botonera ul li a {
       position: relative;
       margin: 0 15px;
       text-decoration: none;
-      color: black;
+      color: white;
+      font-size: larger;
       letter-spacing: 2px;
       font-weight: 600;
       transition: 0.7s;
-      text-shadow: 0 0 9px blue; }
+      text-shadow: 0 0 5px black; }
       #botonera ul li a:hover {
-        color: white;
-        text-shadow: 0 0 9px black;
+        color: black;
+        text-shadow: 0 0 5px white;
         cursor: pointer; }
 
 #inicio {
-  height: 1000px;
-  background-color: transparent; }
-
-#inicio2 {
-  width: 450px;
-  height: 600px;
+  height: 1050px;
   background-color: transparent;
-  float: left;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px; }
-  #inicio2 img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    border-radius: 6px; }
+  margin-top: 10px;
+  margin-bottom: 10px; }
 
 #inicio1 {
-  width: 450px;
-  height: 600px;
-  background-color: transparent;
-  float: left;
-  margin-top: 10px;
-  margin-right: 5px;
-  margin-bottom: 5px;
-  padding: 5px;
-  box-sizing: border-box;
-  font-size: 15px; }
+  height: 700px;
+  margin-bottom: 10px; }
   #inicio1 h1 {
     color: black;
     font-weight: bold;
@@ -108,9 +84,59 @@ header.abajo {
     font-weight: bold;
     text-shadow: 0 0 5px black;
     font-size: 20px; }
+  #inicio1 img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 6px; }
+
+#inicio2 {
+  height: 300px; }
+
+#inicio2_1 {
+  background-color: yellow;
+  border-radius: 15px;
+  border: 2px solid black;
+  margin-bottom: 10px; }
+  #inicio2_1 img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; }
+
+#inicio2_2 {
+  background-color: blue;
+  border-radius: 15px;
+  border: 2px solid black;
+  margin-top: 10px; }
+  #inicio2_2 img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    margin-top: 35px; }
+
+#inicio2_3 {
+  background-color: indianred;
+  border-radius: 15px;
+  border: 2px solid black;
+  margin-bottom: 10px; }
+  #inicio2_3 img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; }
+
+#inicio2_4 {
+  background-color: antiquewhite;
+  border-radius: 15px;
+  border: 2px solid black;
+  margin-top: 10px; }
+  #inicio2_4 img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    margin-top: 25px; }
 
 #info {
-  height: 1000px;
+  height: 1050px;
   background-color: transparent; }
 
 #info1 {
@@ -211,7 +237,8 @@ header.abajo {
 
 #app {
   height: 1240px;
-  background-color: transparent; }
+  background-color: transparent;
+  margin-top: 20px; }
 
 #app1 {
   width: 450px;
@@ -297,10 +324,7 @@ header.abajo {
   width: 900px;
   height: 200px;
   margin: 30px;
-  border-radius: 20 px;
-  background-color: lightblue;
-  border-radius: 6px;
-  border: solid 1px black; }
+  background-color: transparent; }
   .cajacards h1 {
     color: black;
     text-align: center;
@@ -309,38 +333,40 @@ header.abajo {
     padding: 10px;
     text-align: center;
     color: black;
-    text-shadow: 0 0 5px black;
-    font-weight: bold; }
+    font-weight: 600; }
 
 #learn {
   height: 870px;
-  background-color: deeppink; }
+  background-color: transparent;
+  margin-top: 20px; }
 
 #learn0 {
   width: 960px;
   height: 220px;
-  background-color: green; }
+  background-color: transparent; }
 
 .learn1 {
   height: 293.33px;
   width: 293.33px;
-  background-color: ghostwhite;
+  background-color: transparent;
   margin-top: 20px;
   margin-left: 20px;
   float: left; }
 
-footer {
-  height: 260px;
-  background-color: transparent; }
+#contacto {
+  width: 960px;
+  height: 300px;
+  margin-top: 20px; }
 
-.footer1 {
-  height: 220px;
-  width: 215px;
-  float: left;
-  background-color: white;
-  margin-left: 20px;
-  margin-top: 20px; 
-}
+footer {
+  box-shadow: 0px 0px 20px 0px #333 inset;
+  height: 230px;
+  background-color: #69699b;
+  padding-top: 20px; }
+
+.footer1 ul li a {
+  text-decoration: none;
+  color: black; }
 
 #logofooter {
   width: 100%;
@@ -348,7 +374,7 @@ footer {
   color: black;
   font-weight: bold;
   text-decoration: none;
-  text-shadow: 0 0 4px blue;
+  text-shadow: 0 0 4px white;
   margin-top: 70px;
   margin-left: 25px; }
 
@@ -361,33 +387,32 @@ footer {
   #menufooter li {
     width: 100%;
     display: block;
-    color: black;
     font-weight: bold;
     text-decoration: none;
     padding: 10px;
-    text-shadow: 0 0 4px blue;
-    margin-left: 45px; }
+    text-shadow: 0 0 4px black; }
+  #menufooter a {
+    color: white; }
 
 #redesfooter {
   display: flex;
   list-style-type: none; }
   #redesfooter a img {
-    margin-top: 50px;
-    margin-right: 5px;
-    height: 45px; }
+    height: 45px;
+    margin-top: 60px; }
 
 #copy {
-  margin-top: 55px;
-  margin-left: 50px;
   color: black;
-  text-shadow: 0 0 2px blue; }
+  text-shadow: 0 0 2px blue;
+  font-size: medium;
+  margin-top: 60px; }
 
 @media all and (min-width: 600px) and (max-width: 1023px) {
   header, section, footer {
     width: 580px; }
   header {
     width: 100%;
-    height: 50px; }
+    height: 75px; }
   #logo {
     margin-top: 150px;
     margin-left: 0px; }
@@ -466,26 +491,7 @@ footer {
     margin-top: 7px;
     margin-left: 7px; }
   footer {
-    width: 580; }
-  .footer1 {
-    height: 220px;
-    width: 250px;
-    float: left;
-    margin-left: 30px;
-    margin-top: 20px;
-    float: left; }
-  #logofooter {
-    margin-top: 90px;
-    margin-left: 50px; }
-  #menufooter {
-    margin-top: 40px;
-    margin-left: 40px; }
-  #redesfooter a img {
-    margin-top: 70px;
-    margin-left: 10px; }
-  #copy {
-    margin-top: 70px;
-    margin-left: 70px; } }
+    width: 100%; } }
 
 /* fin media 600 a 1023 */
 @media all and (max-width: 599px) {
@@ -510,6 +516,9 @@ footer {
     align-items: center;
     float: center;
     margin-top: 70px; }
+    #botonera ul li a {
+      letter-spacing: none;
+      font-size: small; }
   #inicio {
     width: 100%; }
   #inicio2 {
@@ -521,18 +530,13 @@ footer {
     height: 1300px; }
   #info1 {
     width: 100%;
-    height: 400px;
-    float: left;
-    margin-left: 0px;
-    margin-right: 2px;
-    margin-top: 10px;
-    margin-bottom: 10px; }
+    height: 400px; }
   #info1 img {
     width: 100%;
     height: 100%; }
   #info2 {
     width: 100%;
-    height: 500px; }
+    height: 450px; }
   .titulossombra {
     width: 100%; }
   .parrafos {
@@ -547,28 +551,23 @@ footer {
     width: 100%;
     margin-left: 30px; }
   .redes {
-    margin-left: 5%; }
-  .redes a img {
-    width: 100%;
-    margin-left: 0px; }
+    display: none; }
   #info4 {
     width: 100%;
-    margin-top: 50px; }
+    margin-left: 15px; }
   .descarga {
     text-decoration: none;
     padding: 10px;
-    margin-left: 15%; }
+    margin-left: 22%; }
   #info5 {
     display: none; }
   #info5 img {
     display: none; }
   #app {
-    height: 1950px;
-    background-color: white; }
+    height: 1950px; }
   #app1 {
     width: 100%;
     weight: 500px;
-    background-color: black;
     float: left;
     margin-left: 0px;
     margin-right: 20px;
@@ -579,7 +578,6 @@ footer {
   #app2 {
     width: 100%;
     height: 460px;
-    background-color: black;
     float: left;
     margin-top: 20px; }
   #app3 {
@@ -592,6 +590,9 @@ footer {
     width: 100%;
     height: 320px;
     margin: 0px; }
+  #contacto {
+    width: 100%;
+    height: 450px; }
   #learn {
     height: 1900px; }
   #learn0 {
@@ -601,36 +602,4 @@ footer {
     width: 90%; }
   footer {
     width: 100%;
-    height: 260px; }
-  .footer1 {
-    height: 150px;
-    width: 35%;
-    margin-left: 20px;
-    margin-top: 20px; }
-  #logofooter {
-    width: 100%;
-    margin-left: 0px; }
-  #menufooter {
-    margin: 10px;
-    padding: 0px;
-    list-style-type: none;
-    flex-wrap: wrap;
-    justify-content: space-around; }
-  #menufooter li {
-    width: 100%;
-    display: block;
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
-    padding: 10px;
-    text-shadow: 0 0 4px blue;
-    margin-left: 25px; }
-  #redesfooter a img {
-    margin-top: 50px;
-    margin-left: 0;
-    height: 35px; }
-  #copy {
-    margin-top: 55px;
-    margin-left: 40px;
-    color: black;
-    text-shadow: 0 0 2px blue; } }
+    height: 450px; } }
